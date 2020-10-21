@@ -110,15 +110,18 @@ img {
   }
 
   /* BLOCCO STEPS */
+  #steps .row{
+    background-color: white;
+    width: 420px;
+    text-align: center;
+    padding: 0 10px;
+  }
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-    width: 33%;
+    width: 100%;
   }
 
-  #steps {
-    text-align: center;
-  }
 
 
 
